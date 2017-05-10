@@ -28,10 +28,7 @@ public class MDA_EFSM {
         return type;
     }
 
-//    public int getID(){
-//        return ID;
-//    }
-
+    //transfer states
     public void activate(AbstractFactory af){
         ID = s.getid();
         if(ID == 0){

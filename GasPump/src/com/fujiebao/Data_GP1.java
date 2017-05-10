@@ -12,6 +12,7 @@ public class Data_GP1 extends Data {
     private double total;
     private double price;
 
+    //defaule get and set value
     public double getTemp_a(){
         return temp_a;
     }

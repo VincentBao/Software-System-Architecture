@@ -16,8 +16,8 @@ public class GasPump_1 {
 
     public void activate(float a, float b){
         if((a > 0) && (b > 0)) {
-            ((Data_GP1)d).setTemp_a(a);
-            ((Data_GP1)d).setTemp_b(b);
+            ((Data_GP1)d).setTemp_a(a);  //store float a into Data_GP1 as temp_a
+            ((Data_GP1)d).setTemp_b(b);  //store float b into Data_GP1 as temp_b
 
             m.activate(af);
         }

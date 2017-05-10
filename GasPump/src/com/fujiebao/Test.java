@@ -76,6 +76,8 @@ public class Test {
                     break;
                 case "2":
                     System.out.println("Pay for gas by a credit card:");
+                    System.out.println("If credit card is approved press 5\n" +
+                            "If credit card is rejected press 3");
                     gp1.payCredit();
                     break;
                 case "3":

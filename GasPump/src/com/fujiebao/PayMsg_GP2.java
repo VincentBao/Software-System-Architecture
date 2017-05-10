@@ -8,5 +8,6 @@ public class PayMsg_GP2 extends PayMsg {
     @Override
     public void displayPayMsg(){
         System.out.println("Choose the pay type: Credit or Cash!");
+        System.out.println("Choose cash press 2");
     }
 }

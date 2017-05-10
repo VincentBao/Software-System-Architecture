@@ -16,8 +16,8 @@ public class StoreData_GP2 extends StoreData {
         ((Data_GP2) d).setC(temp_c);
 
         System.out.println("Gas Pump Activated");
-        System.out.println("the price of regular gas is " + ((Data_GP2) d).getA());
-        System.out.println("the price of premium gas is " + ((Data_GP2) d).getB());
-        System.out.println("the price of super gas is " + ((Data_GP2) d).getC());
+//        System.out.println("the price of regular gas is " + ((Data_GP2) d).getA());
+//        System.out.println("the price of premium gas is " + ((Data_GP2) d).getB());
+//        System.out.println("the price of super gas is " + ((Data_GP2) d).getC());
     }
 }

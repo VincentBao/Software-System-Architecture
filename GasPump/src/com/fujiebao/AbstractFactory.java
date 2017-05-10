@@ -3,9 +3,10 @@ package com.fujiebao;
 /**
  * Created by vincent on 4/9/17.
  */
-public abstract class AbstractFactory {
+public abstract class AbstractFactory {  //abstract class
     Data d;
 
+    //abstract method
     public abstract Data getData();
 
     public abstract StoreData createStoreData();

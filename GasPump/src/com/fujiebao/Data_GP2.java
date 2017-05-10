@@ -10,12 +10,13 @@ public class Data_GP2 extends Data {
     private int a;
     private int b;
     private int c;
-    int cash;
+    private int cash;
     private int L;
     private double total;
     private int price;
-    //private double return_cash;
 
+
+    //default get and set value
     public int getTemp_a(){
         return temp_a;
     }
@@ -96,11 +97,4 @@ public class Data_GP2 extends Data {
         this.price = price;
     }
 
-//    public double getReturn_cash(){
-//        return return_cash;
-//    }
-
-//    public void setReturn_cash(double return_cash){
-//        this.return_cash = return_cash;
-//    }
 }

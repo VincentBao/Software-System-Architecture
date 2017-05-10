@@ -20,6 +20,6 @@ public class SetPrice_GP2 extends SetPrice {
         }
 
         System.out.println("Gas type is selected");
-        System.out.println(((Data_GP2) d).getPrice());
+        System.out.println("the price of current gas is " + ((Data_GP2) d).getPrice() + "$ !");
     }
 }

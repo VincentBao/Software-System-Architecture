@@ -7,6 +7,8 @@ public class DisplayMenu_GP1 extends DisplayMenu {
 
     @Override
     public void displayMenu(){
-        System.out.println("Select a gas type: Regular or Super");
+        System.out.println("Select a gas type: Regular or Super\n" +
+                "choose regular press 7\n" +
+                "choose super press 6");
     }
 }

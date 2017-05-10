@@ -16,9 +16,9 @@ public class GasPump_2 {
 
     public void activate(int a, int b, int c){
         if((a > 0) && (b > 0) && (c > 0)){
-            ((Data_GP2)d).setTemp_a(a);
-            ((Data_GP2)d).setTemp_b(b);
-            ((Data_GP2)d).setTemp_c(c);
+            ((Data_GP2)d).setTemp_a(a);  //store int a into Data_GP2 as temp_a
+            ((Data_GP2)d).setTemp_b(b);  //store int b into Data_GP2 as temp_b
+            ((Data_GP2)d).setTemp_c(c);  //store int c into Data_GP2 as temp_c
 
             m.activate(af);
         }
@@ -30,7 +30,7 @@ public class GasPump_2 {
     }
 
     public void payCash(int c){
-        ((Data_GP2) d).setCash(c);
+        ((Data_GP2) d).setCash(c);  //store int cash c into Data_GP2 as cash
         m.payType(af, 2);
     }
 
@@ -55,6 +55,7 @@ public class GasPump_2 {
     }
 
     public void pumpLiter(){
+        //cash should more than the total price
         if(((Data_GP2)d).getCash() < (((Data_GP2)d).getL()+1) * ((Data_GP2)d).getPrice()){
             m.stopPump(af);
         }else{
